@@ -14,13 +14,13 @@
     <!-- Navigation -->
     @include('includes.nav')
     <!-- /Navigation -->  
-
+    
     @yield('content')
-	
 
     <!--FOOTER-->
-    @include('includes.footer')   
     
+    @include('includes.footer')   
+    @yield('customjs')
 </body>
 
 </html>

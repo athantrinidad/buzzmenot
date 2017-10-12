@@ -16,4 +16,5 @@
 {{ Html::style('css/animate.css') }}
 {{ Html::style('css/style.css') }}
 {{ Html::style('css/default.css') }}
+{{ Html::style('css/app.css') }}
 
