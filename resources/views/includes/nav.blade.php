@@ -5,7 +5,7 @@
                 <div class="col-md-2 mob-logo">
                     <div class="row">
                         <div class="site-logo">
-                            <a href="index.html"><img src="img/logo-dark.png" alt="" /></a>
+                            <a href="index.html">BuzzMeABus</a>
                         </div>
                     </div>
                 </div>
