@@ -23,13 +23,12 @@
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active"><a href="#intro">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#works">Works</a></li>				                                                                  
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#works">Contact</a></li>				                                                                  
 
                                 <li><a href="#contact">Contact</a></li>
                                 <li class="dropdown nav-toggle">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropwdown<b class="caret"></b></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your Account<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
                                         <li><a class="external" href="#">Sub menu</a></li>
                                         <li><a class="external" href="#">Sub menu</a></li>
