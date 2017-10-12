@@ -4,7 +4,7 @@
             <div class="col-md-6 col-md-offset-3">
 
                 <div class="text-center">
-                    <a href="#intro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
+                    <a href="#topSectionIntro" class="totop"><i class="pe-7s-angle-up pe-3x"></i></a>
 
                     <div class="social-widget">
 
@@ -17,7 +17,7 @@
                         </ul>						
 
                     </div>
-                    <p>&copy;Valera Theme. All Rights Reserved</p>
+                    <p>&copy; All Rights Reserved</p>
                     <div class="credits">
                         <!-- 
                             All the links in the footer should remain intact. 

@@ -10,11 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+/* START CUSTOM PAGES ROUTES */
+Route::get('/', 'CustompagesController@index');
+Route::get('/about', 'CustompagesController@about');
+Route::get('/partners', 'CustompagesController@partners');
+/* START CUSTOM PAGES ROUTES */
 
-Route::get('/', function () {
-    return view('pages.home');
-});
+/* START CUSTOM PAGES ROUTES */
 
-Route::get('/about', function () {
-    return view('about');
-});
+/* START CUSTOM PAGES ROUTES */
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
