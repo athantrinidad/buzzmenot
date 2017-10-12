@@ -1,11 +1,12 @@
+<section id="topSectionIntro"></section>
 <div id="navigation">
     <nav class="navbar navbar-custom" role="navigation">
         <div class="container">
             <div class="row">
                 <div class="col-md-2 mob-logo">
-                    <div class="row">
+                    <div  class="row">
                         <div class="site-logo">
-                            <a href="index.html">BuzzMeABus</a>
+                            <a id='intro' href="index.html">BuzzMeABus</a>
                         </div>
                     </div>
                 </div>
@@ -22,12 +23,11 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="menu">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="active"><a href="#intro">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#service">Book a Ride Dude</a></li>
-                                <li><a href="#works">Contact</a></li>				                                                                  
-
-                                <li><a href="#contact">Contact</a></li>
+                                <li class="active"><a href="{{URL::to('/')}}">Home</a></li>
+                                <li><a href="{{URL::to('/')}}#parallax1">Book a Ride</a></li>
+                                <li><a href="{{URL::to('/')}}#about">About</a></li>
+                                <li><a href="{{URL::to('/')}}#service">How We Do</a></li> 
+                                <li><a href="{{URL::to('/')}}#contact">Contact</a></li>
                                 <li class="dropdown nav-toggle">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your Account<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
