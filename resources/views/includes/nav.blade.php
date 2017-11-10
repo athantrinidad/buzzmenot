@@ -32,6 +32,7 @@
                                 <li><a href="{{URL::to('/register')}}">Register</a></li>
                                 <li><a href="{{URL::to('/login')}}">Login</a></li>
                                   @else
+
                                 <li class="dropdown nav-toggle">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account<b class="caret"></b></a>
                                     <ul class="dropdown-menu">
